@@ -44,9 +44,29 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="grapheneos" />
-  <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
-  <project path="device/amlogic/yukawa-kernel" name="device/amlogic/yukawa-kernel" groups="device,yukawa,pdk" clone-depth="2" />
   <project path="device/common" name="device_common" groups="pdk-cw-fs,pdk" remote="grapheneos" />
+  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk"/>
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk"/>
+  <project path="device/generic/art" name="device/generic/art" groups="pdk" />
+  <project path="device/generic/car" name="device/generic/car" groups="pdk" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+  <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
+  <project path="device/generic/goldfish-opengl" name="LineageOS/android_device_generic_goldfish-opengl" groups="pdk" />
+  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
+  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" />
+  <project path="device/generic/qemu" name="device/generic/qemu" groups="pdk" />
+  <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
+  <project path="device/generic/uml" name="device/generic/uml" groups="device,pdk" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+  <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
+  <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
@@ -65,26 +85,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
-  <project path="device/google/blueline-kernel" name="device_google_blueline-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bonito" name="device_google_bonito" groups="device,bonito" remote="grapheneos" />
-  <project path="device/google/bonito-kernel" name="device_google_bonito-kernel" groups="device,bonito" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bonito-sepolicy" name="device_google_bonito-sepolicy" groups="device,bonito" remote="grapheneos" />
-  <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
-  <project path="device/google/bramble-kernel" name="device_google_bramble-kernel" groups="device,bramble" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
-  <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/coral" name="device_google_coral" groups="device,coral,generic_fs" remote="grapheneos" />
-  <project path="device/google/coral-kernel" name="device_google_coral-kernel" groups="device,coral,generic_fs" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/coral-sepolicy" name="device_google_coral-sepolicy" groups="device,coral,generic_fs" remote="grapheneos" />
-  <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
-  <project path="device/google/redbull-sepolicy" name="device_google_redbull-sepolicy" groups="device,redbull" remote="grapheneos" />
-  <project path="device/google/redfin" name="device_google_redfin" groups="device,redfin" remote="grapheneos" />
-  <project path="device/google/redfin-kernel" name="device_google_redfin-kernel" groups="device,redfin" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
-  <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="grapheneos" />
-  <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="grapheneos" />
-  <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="grapheneos" />
   <project path="device/google/crosshatch-kernel" name="device_google_crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
   <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="grapheneos" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
@@ -581,10 +581,6 @@
   <project path="kernel/prebuilts/build-tools" name="kernel_prebuilts_build-tools" clone-depth="1" remote="grapheneos" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
-  <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
-  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
-  <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
-  <project path="kernel/google/sunfish" name="kernel_google_sunfish" remote="grapheneos" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
@@ -706,17 +702,24 @@
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
   <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux,pdk" clone-depth="1" />
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="pdk" clone-depth="1" />
@@ -729,6 +732,7 @@
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
@@ -843,7 +847,9 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="grapheneos" />
-
+  
+  <include name="snippets/lineage.xml" />
+  
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
